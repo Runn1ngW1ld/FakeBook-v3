@@ -1,0 +1,86 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="autor" content="Matevž Golja">
+    <meta name="description" content="FakeBook v3.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|ZCOOL+KuaiLe" rel="stylesheet">
+    <title>FakeBook</title>
+  </head>
+
+  <body> <!--Glava strani-->
+    <nav class="navbar fixed-top flex-md-nowrap p-0 shadow">
+      <a class="logo col-sm-3 col-md-2" href="#">FakeBook</a>
+      <div class="input-group mb-3">
+        <input type="text" class="search" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn" type="button" id="button-addon2">Search</button>
+        </div>
+        <a class="odjava logo" href="#">odjava</a>
+      </div>
+    </nav>
+
+<!--navigacja na levem robu strani-->
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar side-nav col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  <span data-feather="home"></span>
+                  O meni <span class="sr-only">(current)</span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" href="/blog">
+                  <span data-feather="home"></span>
+                  Moj blog<span class="sr-only">(current)</span>
+                </a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Moji projekti</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="/time">Sedanja ura</a>
+                  <a class="dropdown-item" href="#">Za enkrat prazno</a>
+                  <a class="dropdown-item" href="#">Za enkrat prazno</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    </div>
+    <div class="o-meni">
+      <h1 class="naslov">Tvoje loto številke</h1>
+      <p class="time">{{ loto_numbers }}</p>
+    </div>
+    </div>
+
+    <footer>
+      <div class="contact">
+        <ul>
+          <li><h2>Kontakti:</h2></li>
+          <li><h3>Telefon:</h3></li>
+          <li><li><p>041-Koča na Mont Everest</p></li>
+          <li><h3>Email:</h3></li>
+          <li><p>matevz090@gmail.com</p></li>
+          <li><h3>Facebook:</h3></li>
+          <li><p>Matevz Golja</p></li>
+          <li><h3>GitHub:</h3></li>
+          <li><p>Runn1ngW1ld</p></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+  </html>

@@ -1,0 +1,138 @@
+html {
+  font-family: 'Playfair Display', serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  background-color: #4266b2;
+}
+
+.logo {
+  color: white;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.row {
+  height: 80px;
+}
+
+.search {
+  position: relative;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: .25rem 0rem 0rem .25rem;
+  margin-top: 13px;
+  right: 100px;
+}
+
+.btn {
+  position: relative;
+  right: 100px;
+  height: 27.5px;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 13;
+  padding: 0rem .75rem;
+
+}
+
+.odjava {
+  position: relative;
+  top: 8px;
+  width: 50px;
+  margin-left: 1050px;
+  padding-left: 9px;
+  padding-right: 5px;
+  padding-top: 5px;
+  color: white;
+  border-left-style: solid;
+  border-left-width: 1px;
+  font-size: 20px
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.side-nav {
+  padding-bottom: initial ;
+  padding-top: 60px;
+}
+
+.o-meni {
+  position: relative;
+  width: 1300px;
+  left: 300px;
+  right: -300px;
+  border: 1px;
+  border-style: solid;
+  border-radius: 15px;
+  background-color: #f8f9fa;
+}
+
+.naslov {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  text-align: center;
+  padding-right: px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.loto {
+  position: relative;
+  left: 550px;
+}
+
+.generator  {
+  position: relative;
+  left: 570px
+}
+
+.img {
+  padding-left: 300px;
+  }
+
+.text {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  padding-right: 0px;
+}
+
+.list {
+  text-align: center;
+  padding-right: 40px;
+}
+
+.time {
+  text-align: center;
+}
+
+footer {
+  position: relative;
+  top: 50px;
+  background-color: #f8f9fa
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3  {
+  font-size: 17px;
+}
+
+.contact {
+  position: relative;
+  left: 50px;
+
+}
